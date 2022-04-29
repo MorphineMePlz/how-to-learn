@@ -6,20 +6,28 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  border: 1px solid skyblue;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  margin: 0 auto;
+  border: 1px solid red;
+  position: relative;
+  display: flex;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -28,4 +36,50 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
+.logo__place_header {
+  top: 30px;
+  margin-left: 64px;
+  position: absolute;
+}
+
+.header__title {
+  margin-left: 64px;
+  z-index: 10;
+  width: 730px;
+  position: relative;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+  margin: auto 0 auto 64px;
+}
+
+.header__subtitle {
+  margin-left: 64px;
+  z-index: 15;
+  position: absolute;
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  bottom: 30px;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  z-index: 11;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.header__link {
+  text-decoration: none;
 }
