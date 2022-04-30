@@ -5,7 +5,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-/* header */
 .header {
   display: flex;
   height: 100vh;
@@ -72,10 +71,101 @@
   text-decoration: none;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.description {
+  padding: 100px 0;
+}
+
+.two-colums__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-colums {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.two-colums__brief {
+  max-width: 175px;
+  margin: 0;
+  color: #2f80ed;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.two-colums__paragraph {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  margin: 0;
+}
+
+.two-colums__paragraph:nth-of-type(2n) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.two-colums__span-accent {
+  font-weight: bold;
+}
+
+.table {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 0 100px;
+  width: 1100px;
+  justify-content: space-between;
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 1.15px;
+  font-weight: bold;
+}
+
+.table__cell :last-child {
+  margin: 0;
+}
+
+.table__text {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 1.12;
+  font-weight: normal;
 }
