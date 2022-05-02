@@ -213,6 +213,7 @@
   color: white;
   overflow: hidden;
   z-index: 0;
+  align-items: center;
 }
 
 .table__cell_theme_dark {
@@ -241,12 +242,10 @@
   width: 877px;
   height: 877px;
   right: -210px;
-  top: 0;
+  top: 0px;
   z-index: -1;
-  object-fit: cover;
   background-image: url(../images/kaufman-triangle.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer__columns {
