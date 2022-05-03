@@ -32,7 +32,7 @@
 
 .logo_place_header {
   top: 30px;
-  margin-left: 64px;
+  left: 64px;
   position: absolute;
 }
 
@@ -68,7 +68,8 @@
   right: 0;
   z-index: 11;
   bottom: 0;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: right;
 }
 
 .header__link {
@@ -151,18 +152,15 @@
 }
 
 .table__heading {
-  margin-top: 0;
+  margin: 0;
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
 }
 
-.table__cell :last-child {
-  margin: 0;
-}
-
 .table__text {
-  margin: 0 0 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
   font-size: 18px;
   line-height: 1.12;
   font-weight: normal;
