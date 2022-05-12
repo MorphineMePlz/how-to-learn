@@ -75,6 +75,11 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: 0.2s;
+}
+
+.header__link:hover {
+  opacity: 0.7;
 }
 
 .description {
@@ -174,6 +179,7 @@
   min-height: 890px;
   position: relative;
   background-position: left bottom;
+  margin-bottom: 100px;
 }
 
 .feynman__title {
@@ -206,6 +212,11 @@
   font-weight: normal;
   text-align: center;
   color: #2f80ed;
+  transition: 0.2s;
+}
+
+.feynman__link:hover {
+  opacity: 0.7;
 }
 
 .kaufman {
@@ -294,6 +305,11 @@
   text-decoration: none;
   color: white;
   list-style: none;
+  transition: 0.2s;
+}
+
+.footer__column-link:hover {
+  opacity: 0.7;
 }
 
 .footer__author {
