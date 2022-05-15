@@ -2,11 +2,3 @@
   width: 240px;
   margin-top: 60px;
 }
-
-.cards__item:nth-of-type(2) {
-  margin: 60px 100px 0 100px;
-}
-
-.cards__item:nth-of-type(5) {
-  margin-left: 100px;
-}
